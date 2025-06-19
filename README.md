@@ -1,5 +1,1 @@
-"# Android1" 
-"# Android1" 
-# Android1
-# Android1
-# Android1
+APP Môn Lập trình Android1 các chức năng: đăng nhập, đăng ký, home,...
