@@ -44,12 +44,47 @@
                 android:layout_marginStart="8dp"
                 android:layout_marginEnd="14dp"
                 android:layout_weight="1"
+                android:background="#F44336"
                 android:text="Search" />
         </LinearLayout>
 
-        <Space
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="36dp" />
+            android:layout_height="342dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="match_parent"
+                android:layout_height="205dp"
+                app:srcCompat="@drawable/header1" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="107dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="99dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/header2" />
+
+                <ImageView
+                    android:id="@+id/imageView12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="99dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/header3" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="FLASH SALE" />
+        </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -58,10 +93,10 @@
 
             <ImageView
                 android:id="@+id/imageView"
-                android:layout_width="wrap_content"
+                android:layout_width="106dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/ic_launcher_background" />
+                app:srcCompat="@drawable/san_pham_1" />
 
             <LinearLayout
                 android:layout_width="277dp"
@@ -79,16 +114,12 @@
                         android:layout_height="match_parent"
                         android:orientation="vertical">
 
-                        <Space
-                            android:layout_width="match_parent"
-                            android:layout_height="14dp" />
-
                         <TextView
                             android:id="@+id/chat"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:gravity="clip_horizontal"
-                            android:text="PRODUCT 02"
+                            android:text="Canon EOS R6 Mark II."
                             android:textSize="20sp"
                             android:textStyle="bold" />
 
@@ -96,7 +127,7 @@
                             android:id="@+id/textView"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="280.000.000 VND" />
+                            android:text="50.000.000 VND" />
 
                     </LinearLayout>
 
@@ -110,7 +141,7 @@
                             android:layout_height="15dp" />
 
                         <Button
-                            android:id="@+id/button8"
+                            android:id="@+id/btnD1"
                             android:layout_width="108dp"
                             android:layout_height="38dp"
                             android:text="Detail" />
@@ -131,10 +162,10 @@
 
             <ImageView
                 android:id="@+id/imageView"
-                android:layout_width="wrap_content"
+                android:layout_width="107dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/ic_launcher_background" />
+                app:srcCompat="@drawable/san_pham_2" />
 
             <LinearLayout
                 android:layout_width="277dp"
@@ -158,16 +189,12 @@
                             android:layout_height="match_parent"
                             android:orientation="vertical">
 
-                            <Space
-                                android:layout_width="match_parent"
-                                android:layout_height="14dp" />
-
                             <TextView
                                 android:id="@+id/chat"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:gravity="clip_horizontal"
-                                android:text="PRODUCT 02"
+                                android:text="Sony Alpha A7 III"
                                 android:textSize="20sp"
                                 android:textStyle="bold" />
 
@@ -175,7 +202,7 @@
                                 android:id="@+id/textView"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:text="280.000.000 VND" />
+                                android:text="30.000.000 VND" />
 
                         </LinearLayout>
 
@@ -189,327 +216,7 @@
                                 android:layout_height="15dp" />
 
                             <Button
-                                android:id="@+id/button8"
-                                android:layout_width="108dp"
-                                android:layout_height="38dp"
-                                android:text="Detail" />
-                        </LinearLayout>
-                    </LinearLayout>
-                </LinearLayout>
-            </LinearLayout>
-
-        </LinearLayout>
-
-        <Space
-            android:layout_width="match_parent"
-            android:layout_height="13dp" />
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="76dp"
-            android:orientation="horizontal">
-
-            <ImageView
-                android:id="@+id/imageView"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                app:srcCompat="@drawable/ic_launcher_background" />
-
-            <LinearLayout
-                android:layout_width="277dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:orientation="vertical">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:orientation="vertical">
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:orientation="horizontal">
-
-                        <LinearLayout
-                            android:layout_width="159dp"
-                            android:layout_height="match_parent"
-                            android:orientation="vertical">
-
-                            <Space
-                                android:layout_width="match_parent"
-                                android:layout_height="14dp" />
-
-                            <TextView
-                                android:id="@+id/chat"
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:gravity="clip_horizontal"
-                                android:text="PRODUCT 02"
-                                android:textSize="20sp"
-                                android:textStyle="bold" />
-
-                            <TextView
-                                android:id="@+id/textView"
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:text="280.000.000 VND" />
-
-                        </LinearLayout>
-
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:orientation="vertical">
-
-                            <Space
-                                android:layout_width="match_parent"
-                                android:layout_height="15dp" />
-
-                            <Button
-                                android:id="@+id/button8"
-                                android:layout_width="108dp"
-                                android:layout_height="38dp"
-                                android:text="Detail" />
-                        </LinearLayout>
-                    </LinearLayout>
-                </LinearLayout>
-            </LinearLayout>
-
-        </LinearLayout>
-
-        <Space
-            android:layout_width="match_parent"
-            android:layout_height="13dp" />
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="76dp"
-            android:orientation="horizontal">
-
-            <ImageView
-                android:id="@+id/imageView"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                app:srcCompat="@drawable/ic_launcher_background" />
-
-            <LinearLayout
-                android:layout_width="277dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:orientation="vertical">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:orientation="vertical">
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:orientation="horizontal">
-
-                        <LinearLayout
-                            android:layout_width="159dp"
-                            android:layout_height="match_parent"
-                            android:orientation="vertical">
-
-                            <Space
-                                android:layout_width="match_parent"
-                                android:layout_height="14dp" />
-
-                            <TextView
-                                android:id="@+id/chat"
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:gravity="clip_horizontal"
-                                android:text="PRODUCT 02"
-                                android:textSize="20sp"
-                                android:textStyle="bold" />
-
-                            <TextView
-                                android:id="@+id/textView"
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:text="280.000.000 VND" />
-
-                        </LinearLayout>
-
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:orientation="vertical">
-
-                            <Space
-                                android:layout_width="match_parent"
-                                android:layout_height="15dp" />
-
-                            <Button
-                                android:id="@+id/button8"
-                                android:layout_width="108dp"
-                                android:layout_height="38dp"
-                                android:text="Detail" />
-                        </LinearLayout>
-                    </LinearLayout>
-                </LinearLayout>
-            </LinearLayout>
-
-        </LinearLayout>
-
-        <Space
-            android:layout_width="match_parent"
-            android:layout_height="13dp" />
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="76dp"
-            android:orientation="horizontal">
-
-            <ImageView
-                android:id="@+id/imageView"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                app:srcCompat="@drawable/ic_launcher_background" />
-
-            <LinearLayout
-                android:layout_width="277dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:orientation="vertical">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:orientation="vertical">
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:orientation="horizontal">
-
-                        <LinearLayout
-                            android:layout_width="159dp"
-                            android:layout_height="match_parent"
-                            android:orientation="vertical">
-
-                            <Space
-                                android:layout_width="match_parent"
-                                android:layout_height="14dp" />
-
-                            <TextView
-                                android:id="@+id/chat"
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:gravity="clip_horizontal"
-                                android:text="PRODUCT 02"
-                                android:textSize="20sp"
-                                android:textStyle="bold" />
-
-                            <TextView
-                                android:id="@+id/textView"
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:text="280.000.000  VND" />
-
-                        </LinearLayout>
-
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:orientation="vertical">
-
-                            <Space
-                                android:layout_width="match_parent"
-                                android:layout_height="15dp" />
-
-                            <Button
-                                android:id="@+id/button8"
-                                android:layout_width="108dp"
-                                android:layout_height="38dp"
-                                android:text="Detail" />
-                        </LinearLayout>
-                    </LinearLayout>
-                </LinearLayout>
-            </LinearLayout>
-
-        </LinearLayout>
-
-        <Space
-            android:layout_width="match_parent"
-            android:layout_height="13dp" />
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="76dp"
-            android:orientation="horizontal">
-
-            <ImageView
-                android:id="@+id/imageView"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                app:srcCompat="@drawable/ic_launcher_background" />
-
-            <LinearLayout
-                android:layout_width="277dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:orientation="vertical">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:orientation="vertical">
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:orientation="horizontal">
-
-                        <LinearLayout
-                            android:layout_width="159dp"
-                            android:layout_height="match_parent"
-                            android:orientation="vertical">
-
-                            <Space
-                                android:layout_width="match_parent"
-                                android:layout_height="14dp" />
-
-                            <TextView
-                                android:id="@+id/chat"
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:gravity="clip_horizontal"
-                                android:text="PRODUCT 02"
-                                android:textSize="20sp"
-                                android:textStyle="bold" />
-
-                            <TextView
-                                android:id="@+id/textView"
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:text="280.000.000 VND" />
-
-                        </LinearLayout>
-
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:orientation="vertical">
-
-                            <Space
-                                android:layout_width="match_parent"
-                                android:layout_height="15dp" />
-
-                            <Button
-                                android:id="@+id/button8"
+                                android:id="@+id/btnD1"
                                 android:layout_width="108dp"
                                 android:layout_height="38dp"
                                 android:text="Detail" />
@@ -523,62 +230,33 @@
 
         <Space
             android:layout_width="match_parent"
-            android:layout_height="41dp" />
+            android:layout_height="82dp" />
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="220dp"
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/button2"
+                android:id="@+id/btnCart"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="4dp"
                 android:layout_marginEnd="4dp"
                 android:layout_weight="1"
-                android:text="Trang Chủ"
+                android:text="Cart"
                 android:textSize="12dp" />
 
             <Button
-                android:id="@+id/button3"
+                android:id="@+id/btnUser"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="4dp"
                 android:layout_marginEnd="4dp"
                 android:layout_weight="1"
-                android:text="Giỏ Hàng"
+                android:text="User"
                 android:textSize="12dp" />
-
-            <Button
-                android:id="@+id/button4"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="4dp"
-                android:layout_marginEnd="4dp"
-                android:layout_weight="1"
-                android:text="Giảm Gía"
-                android:textSize="12dp" />
-
-            <Button
-                android:id="@+id/button5"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="4dp"
-                android:layout_marginEnd="4dp"
-                android:layout_weight="1"
-                android:text="LỊCH SỬ"
-                android:textSize="12dp" />
-
-            <Button
-                android:id="@+id/button6"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:layout_marginStart="4dp"
-                android:layout_marginEnd="4dp"
-                android:textSize="12dp"
-                android:text="Cá nhân" />
         </LinearLayout>
+
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
